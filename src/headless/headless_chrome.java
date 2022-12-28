@@ -13,7 +13,7 @@ public class headless_chrome {
 		
 		ChromeOptions options=new ChromeOptions();
 		//options.setHeadless(true);
-		options.addArguments("--headless");
+		options.addArguments("--headless")
 		
 		WebDriver driver=new ChromeDriver();
 		
